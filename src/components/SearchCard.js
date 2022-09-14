@@ -2,8 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 const SearchCard = ({data}) => {
-	const description =
-		"React and Node.js Chat app using Socket.io and MongoDB. How to create MERN stack instant, private chat app. In this full tutorial, you will learn to use react hooks, sending a private message with socket.io, and saving data to MongoDB.";
 	return (
 		<div className="flex gap-3">
 			<div className="relative">
